@@ -1,0 +1,17 @@
+{
+	"HTTPPort": "7979",
+	"Entries": [{
+		"Name": "Hello",
+		"Pair": {
+			"From": "0.0.0.0:6186",
+			"To": "127.0.0.1:6379"
+		},
+		"Delay": 0,
+		"Bandwidth": 0,
+		"DisConnection": {
+			"Enabled": false,
+			"Start": [10, 20, 30],
+			"End": [15, 25, 35]
+		}
+	}]
+}
